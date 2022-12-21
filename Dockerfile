@@ -1,4 +1,4 @@
-FROM python:3.10-buster
+FROM python:slim-bullseye
 ENV PYTHONUNBUFFERED 1
 WORKDIR /app
 COPY . /app
